@@ -13,4 +13,5 @@ let isBmiHigher = markBmi > johnBmi;
 
 //console.log(johnBmi);
 //console.log(markBmi);
-console.log(isBmiHigher);
+
+console.log('Is Mark\'s BMI higher than John\'s? ' + isBmiHigher);
