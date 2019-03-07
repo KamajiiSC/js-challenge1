@@ -6,8 +6,8 @@ const JOHN_HEIGHT = 1.7;
 let johnBmi = JOHN_MASS / (JOHN_HEIGHT * JOHN_HEIGHT);
 let markBmi= MARK_MASS / (MARK_HEIGHT * MARK_HEIGHT);
  
-let higherBmi = markBmi > johnBmi;
+let isBmiHigher = markBmi > johnBmi;
 
 //console.log(johnBmi);
 //console.log(markBmi);
-console.log(higherBmi);
+console.log(isBmiHigher);
