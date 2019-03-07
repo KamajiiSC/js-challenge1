@@ -5,3 +5,6 @@ const JOHN_HEIGHT = 1.7;
 
 let johnBmi = JOHN_MASS / (JOHN_HEIGHT * JOHN_HEIGHT);
 let markBmi= MARK_MASS / (MARK_HEIGHT * MARK_HEIGHT);
+ 
+console.log(johnBmi);
+console.log(markBmi);
