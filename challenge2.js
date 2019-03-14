@@ -4,6 +4,8 @@ const scoreMike = (116 + 94 + 123) / 3;
 
 if(scoreJohn > scoreMike){
   console.log("John wins on average compared to Mike, John scores " + scoreJohn);
-} else{
+} else if(scoreJohn === scoreMike){
+  console.log("John and Mike on average have the same score of" + scoreJohn);
+}else{
   console.log("Mike wins on average compared to John, Mike scores " + scoreMike);
 }
