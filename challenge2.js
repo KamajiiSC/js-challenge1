@@ -12,3 +12,11 @@ if(scoreJohn > scoreMike){
   console.log("Mike wins on average compared to John, Mike scores " + scoreMike);
 }
 */
+
+if (scoreJohn > scoreMary && scoreJohn > scoreMike){
+  console.log("John wins out of the three with an average of " + scoreJohn);
+}else if(scoreMike > scoreJohn && scoreMike > scoreMary){
+  console.log("Mike wins out of the three with an average of " + scoreMike);
+}else if(scoreMary > scoreJohn && scoreMary > scoreMike){
+  console.log("Mary wins out of the three with an average of " + scoreMary);
+}
